@@ -1,0 +1,111 @@
+{
+  "name": "Sleenerzand Natuurpad",
+  "description": "Een afwisselend 4,7 km natuurpad door bos, heide en vennetjes rond Schoonoord met educatieve checkpoints.",
+  "difficulty": "Easy",
+  "estimatedTime": "60‑75 minutes",
+  "startingPoint": {
+    "latitude": 52.8449789,
+    "longitude": 6.730946,
+    "name": "P‑plaats Slenerweg",
+    "description": "Parkeerplaats bij ingang Sleenerzand, routebord en informatiepaneel"
+  },
+  "checkpoints": [
+    {
+      "id": 0,
+      "name": "Ven & Bankje van Geluk",
+      "latitude": 52.85,
+      "longitude": 6.750556,
+      "description": "Pittoresk ven waar vaak libellen te zien zijn en een bankje met uitzicht.",
+      "wildlife": ["Libelle", "Heikikker", "Rietgors"],
+      "plantLife": ["Heide", "Riet", "Watermunt"]
+    },
+    {
+      "id": 1,
+      "name": "Kielse Kei",
+      "latitude": 52.7325,
+      "longitude": 6.75,
+      "description": "Grote zwerfkei uit de ijstijd met uitleg over geologische herkomst.",
+      "wildlife": ["Bosmuis", "Specht", "Eekhoorn"],
+      "plantLife": ["Mos", "Lijsterbes", "Viltige rolle"]
+    },
+    {
+      "id": 2,
+      "name": "Gletsjerkuil",
+      "latitude": 52.7335,
+      "longitude": 7.7475,
+      "description": "Inzinkingskuil uit de ijstijd, vaak nat en met veenmos.",
+      "wildlife": ["Kleine watersalamander", "Waterspreeuw", "Rietzanger"],
+      "plantLife": ["Veenmos", "Moerasspirea", "Middagkoekoeksbloem"]
+    }
+  ],
+  "questions": [
+    {
+      "id": 0,
+      "checkpointId": 0,
+      "question": "Welke insectsoort zie je vaak bij ven & bankje van geluk?",
+      "options": [
+        "Zweefvlieg",
+        "Libelle",
+        "Vlinder",
+        "Mug"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Libellen kun je vaak zien bij stil water zoals ven in bosgebied.",
+      "hint": "Ze hebben grote vleugels en een lang lijf.",
+      "difficulty": "easy",
+      "points": 10
+    },
+    {
+      "id": 1,
+      "checkpointId": 1,
+      "question": "Wat is een zwerfkei zoals de Kielse Kei?",
+      "options": [
+        "Een lokaal gevormde kei",
+        "Een rotspunt uit de ijstijd die hier werd achtergelaten",
+        "Een meteoriet",
+        "Een stuk oud gesteente uit de kust"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zwerfkeien zijn door gletsjers meegenomen stenen uit Scandinavië of Noord-Duitsland :contentReference[oaicite:2]{index=2}.",
+      "hint": "Denk aan gletsjers en ijstijd.",
+      "difficulty": "medium",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "checkpointId": 2,
+      "question": "Welke vegetatie hoort typisch bij een gletsjerkuil?",
+      "options": [
+        "Cactussen",
+        "Veenmos",
+        "Palmbomen",
+        "Wijngaarden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In natte kuilen uit de ijstijd gedijt veenmos goed.",
+      "hint": "Het is nat en vochtig.",
+      "difficulty": "medium",
+      "points": 10
+    }
+  ],
+  "trailRules": [
+    "Blijf op de paden",
+    "Neem afval mee",
+    "Laat dieren met rust",
+    "Geen vuur of kamperen",
+    "Honden aangelijnd"
+  ],
+  "safetyTips": [
+    "Draag stevig schoeisel",
+    "Neem water mee",
+    "Controleer de route vooraf",
+    "Gebruik muggen- of tekenbescherming",
+    "Laat iemand weten waar je loopt"
+  ],
+  "seasonalNotes": {
+    "spring": "Heide begint te bloeien, veel waterplanten",
+    "summer": "Warm en vochtig, muggen actief",
+    "fall": "Prachtige herfstkleuren",
+    "winter": "Modderig of kans op ijs"
+  }
+}
