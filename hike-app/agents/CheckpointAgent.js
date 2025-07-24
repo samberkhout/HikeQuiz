@@ -1,4 +1,4 @@
-import { calculateDistance } from '../utils/location';
+import { calculateDistance } from '../utils/location.js';
 import demoTrail from '../data/demoTrail.json';
 import { checkpointAPI } from '../api/api';
 
