@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 import MapView, { Marker, Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
-import { calculateDistance, calculateRouteDistance, findNearestPointOnRoute } from '../utils/location';
+import { calculateDistance, calculateRouteDistance, findNearestPointOnRoute } from '../utils/location.js';
 import demoTrail from '../data/demoTrail.json';
 import MapLegend from './MapLegend';
 import RouteService from '../services/RouteService';

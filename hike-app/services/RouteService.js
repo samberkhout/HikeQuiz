@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { calculateDistance, calculateBearing } from '../utils/location';
+import { calculateDistance, calculateBearing } from '../utils/location.js';
 import demoTrail from '../data/demoTrail.json';
 
 class RouteService {
